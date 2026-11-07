@@ -10,4 +10,4 @@ Lee y edita una hoja de Google Sheets propia del usuario, con su cuenta de Googl
 - [Política de privacidad](privacidad.html)
 - [Condiciones del servicio](terminos.html)
 
-Contacto: ptr.lopezgomez@gmail.com
+Contacto: satur9things@gmail.com

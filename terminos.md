@@ -22,4 +22,4 @@ Al usar Mi Contador ("la app") aceptas estas condiciones.
 
 Consulta también la [política de privacidad](privacidad.html).
 
-Contacto: ptr.lopezgomez@gmail.com
+Contacto: satur9things@gmail.com
