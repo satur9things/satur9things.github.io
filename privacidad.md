@@ -6,7 +6,7 @@ title: Política de privacidad · Mi Contador
 
 **Última actualización:** 6 de noviembre de 2026
 
-Mi Contador ("la app") es una app de Android de uso personal, creada por Pedro Manuel López Gómez,
+Mi Contador ("la app") es una app de Android de uso personal, creada por Satur9Things,
 para consultar y editar movimientos de gastos guardados en una hoja de Google Sheets.
 
 ## Qué datos usa la app
