@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Satur9Things</title>
+  <script>
+    // Etiquetas QR de piezas de joyería: https://satur9things.github.io/P/<codigo>
+    // GitHub Pages muestra esta página para cualquier dirección que no existe; si es la de una
+    // etiqueta, redirige al portal. Para cambiar de servidor, edita solo DESTINO: las etiquetas
+    // ya impresas siguen funcionando.
+    var DESTINO = "http://localhost:3000"; // portal de Gemas (sin "/" al final)
+
+    var m = /^\/P\/([0-9A-Z]{8,16})\/?$/i.exec(location.pathname);
+    if (m && DESTINO) {
+      location.replace(DESTINO + "/P/" + m[1].toUpperCase());
+    }
+  </script>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 48px 16px;
+           color: #1f1f1f; background: #fff; text-align: center; }
+    a { color: #1677ff; }
+    @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #141414; } a { color: #4096ff; } }
+  </style>
+</head>
+<body>
+  <h1>Página no encontrada</h1>
+  <p id="mensaje">La dirección que abriste no existe.</p>
+  <p><a href="/">Ir al inicio</a></p>
+  <script>
+    if (m) document.getElementById("mensaje").textContent = "Abriendo la pieza " + m[1].toUpperCase() + "…";
+  </script>
+</body>
+</html>
